@@ -1,7 +1,3 @@
-/**
- * Main application file
- */
-
 const express = require('express');
 const http = require('http');
 
@@ -15,8 +11,14 @@ const server = http.createServer(app);
 // New line
 expressConfig(app);
 
+// Add this line
+const routeConfig = require('./routes');
+
+// Add this line
+routeConfig(app);
+
 const config = {
-  port: 8080,
+  port: 7001,
   ip: '127.0.0.1',
 };
 
