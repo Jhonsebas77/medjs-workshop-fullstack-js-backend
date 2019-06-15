@@ -1,0 +1,14 @@
+{
+  "name": "backend-js-shopping",
+  "version": "1.0.0",
+  "description": "A backend full in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Sebastian Otalora <jhonsebas77@outlook.com>",
+  "license": "MIT"
+}
